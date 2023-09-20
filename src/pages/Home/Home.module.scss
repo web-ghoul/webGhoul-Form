@@ -1,0 +1,8 @@
+.home_box{
+    background-image: var(--main_gradient);
+    min-height: 100vh;
+
+    .auth_options{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

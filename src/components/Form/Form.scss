@@ -1,0 +1,19 @@
+form {
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: var(--box_shadow);
+    min-height: 80vh;
+    .firebase_auth_head {
+        img {
+            width: 50px;
+            height: auto;
+            z-index: 2;
+        }
+    }
+    .form_auth_cover {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        position: relative;
+    }
+}

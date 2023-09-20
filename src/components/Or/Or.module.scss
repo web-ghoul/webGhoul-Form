@@ -1,0 +1,19 @@
+.or_box {
+    position: relative;
+    h6 {
+        background-color: var(--white);
+        padding: 5px;
+        position: relative;
+        z-index: 2;
+    }
+    hr {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-color: var(--main) !important;
+        border-width: 1px;
+        border-style: solid;
+        width: 100%;
+    }
+}

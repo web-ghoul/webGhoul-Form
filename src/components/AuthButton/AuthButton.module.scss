@@ -1,0 +1,58 @@
+@import '../../../app/mediaSize.scss';
+.auth_button {
+    background-color: var(--white);
+    box-shadow: var(--box_shadow);
+    border-radius: 4px;
+    img {
+        width: 25px;
+        height: auto;
+    }
+    svg {
+        font-size: 25px;
+    }
+}
+@media(max-width:$xlarge-screen) {
+    .auth_button {
+        img {
+            width: 24px;
+        }
+        svg {
+            font-size: 24px;
+        }
+    }
+}
+
+@media(max-width:$large-screen) {
+    .auth_button {
+        border-radius: 3px;
+        img {
+            width: 22px;
+        }
+        svg {
+            font-size: 22px;
+        }
+    }
+}
+
+@media(max-width:$medium-screen) {
+    .auth_button {
+        border-radius: 2px;
+        img {
+            width: 20px;
+        }
+        svg {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(max-width:$small-screen) {
+    .auth_button {
+        img {
+            width: 18px;
+        }
+        svg {
+            font-size: 18px;
+        }
+    }
+}
